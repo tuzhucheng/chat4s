@@ -1,5 +1,7 @@
 val http4sVersion = "0.4.0"
 
+herokuAppName in Compile := "chat4s"
+
 lazy val root = (project in file(".")).
   settings(
     name := "chat4s",
