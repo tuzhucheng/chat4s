@@ -1,6 +1,8 @@
+import NativePackagerKeys._
+
 val http4sVersion = "0.4.0"
 
-herokuAppName in Compile := "chat4s"
+packageArchetype.java_application
 
 lazy val root = (project in file(".")).
   settings(
