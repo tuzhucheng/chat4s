@@ -14,7 +14,8 @@ lazy val root = (project in file(".")).
       "org.http4s" %% "http4s-core" % http4sVersion,
       "org.http4s" %% "http4s-dsl" % http4sVersion,
       "org.http4s" %% "http4s-server" % http4sVersion,
-      "org.http4s" %% "http4s-jetty" % http4sVersion
+      "org.http4s" %% "http4s-jetty" % http4sVersion,
+      "org.slf4j" % "slf4j-simple" % "1.7.7"
     ),
     resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
   )
